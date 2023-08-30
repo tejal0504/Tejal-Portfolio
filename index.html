@@ -1,411 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="icon" type="image/png" href="https://simg.nicepng.com/png/small/96-969">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
-<link rel="stylesheet" type="text/css" href="index.css">
-<title>Tejal Portfolio</title>
-
-<style type="text/css">
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
-body
-{
-margin: 0px;
-box-sizing: border-box;
-font-family: sans-serif;
-}
-.myname
-{
-text-shadow: -5px 2px black;
-font-size: 29px;
-font-family: Arial Black;
-color: #961240;
-}
-.mymenu
-{
-font-size: 20px;
-color: black;
-font-weight: bolder;
-}
-.mymenu:hover
-{
-color: #961240;
-}
-.navbar
-{
-background-color: #cfcfe8 !important;
-position: fixed;
-top: 0px;
-left: 0px;
-width: 100%;
-z-index: 1;
-}
-.maindiv
-{
-width: 100%;
-position: absolute;
-top: 1px;
-}
-.dv
-{
-width: 100%;
-padding-top:180px ;
-}
-html
-{
-scroll-behavior: smooth;
-}
-.home
-{
-height: 400px;
-margin-top: 4%;
-background-image: url("https://user-images.githubusercontent.com/74038190/249570803-02293768-9242-47e1-bf8f-d084ba0a2d1d.gif");
-background-repeat: no-repeat;
-background-size: 30%;
-background-position: left center;
-}
-.infoh
-{
-font-size: 50px;
-color: #342869;
-font-family: initial;
-font-weight: bolder;
-}
-.homeinfo
-{
-margin-top: -8%;
-margin-left: 30px;
-
-}
-.homeinfo
-{
-text-align: center;
-margin-left: 50%;
-font-size: 12px;
-color: #342869;
-font-weight: bolder;
-}
-.infoname
-{
-font-size: 33px;
-font-family: Arial Black !important;
-color: #961240;
-font-weight: bolder;
-}
-.infodiv
-{
-font-size: 12px;
-color: royalblue;
-font-weight: bolder;
-}
-.btn
-{
-margin: 0px;
-}
-.btn button
-{
-height: 32px;
-width: 82px;
-border: none;
-background-color: #961240;
-border-radius: 10px;
-color: white;
-font-size: 16px;
-font-weight: bolder;
-}
-.btn button:hover
-{
-background-color: white;
-color: #961240;
-border: 2px solid #961240;
-transform: scale(1.1);
-transition-duration: 1s;
-}
-.about
-{
-height: 495px;
-background-color: gray;
-color: #961240;
-margin-top: 50px;
-padding: 32px;
-font-family: Arial;
-font-weight: bolder;
-}
-.skill
-{
-height: 300px;
-color: #961240;
-margin-top: 40px;
-padding: 0px;
-font-family: Arial;
-font-weight: bolder;
-}
-.project
-{
-height: 820px;
-background-color: gray;
-color: #961240;
-margin-top: 45px;
-padding: 32px;
-font-family: Arial;
-font-weight: bolder;
-}
-.contact
-{
-height: 430px;
-color: #961240;
-margin-top: 15px;
-padding: 30px;
-font-family: Arial;
-font-weight: bolder;
-}
-.head1
-{
-font-size: 50px;
-font-family: Cooper Black;
-}
-p
-{
-text-align: justify;
-text-indent: 90px;
-margin: 10px 60px;
-font-size: 22px;
-line-height: 30px;
-letter-spacing: 1px;
-word-spacing: 3px;
-font-family: Times New Roman;
-font-weight: bolder;
-}
-.pic:hover
-{
-border-radius: 400px;
-transform: scale(1.1);
-transition-duration: 2s;
-}
-.ft
-{
-background-color: black;
-}
-.frm
-{
-margin-top: -px;
-padding: 90px;
-}
-td
-{
-text-align: center;
-}
-h5
-{
-text-align: center;
-color: black;
-font-weight: bolder;
-}
-.card,.card-deck
-{
-padding: 25px;
-height: 600px;
-
-}
-.message-box {
-  height: 150px;
-  width: 630px;
-  border-color: gray;
-  border-radius: 8px;
-}
-  
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
 </head>
 <body>
-<div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><span class="myname"> TEJAL</span></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#home"><span class="mymenu">Home</span>
-        <span class="sr-only">(Current)</span> </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about"><span class="mymenu">About</span></a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#skill"> <span class="mymenu">Skills</span></a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#project"><span class="mymenu">Project</span></a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="#contact"><span class="mymenu">Contact</span></a>
-      </li>
-    </ul>
-  </div>
-</nav>
-</div>
-<div class="maindiv">
-<div class="home dv" id="home">
-<div class="homeinfo">
-<span class="infoh">Hello</span><br>
-<span class="info">My name is</span><br>
-<span class="infoname">Tejal Sangle</span><br>
-<span class="info">As a recent graduate in Bachlour In Science.</span><br>
-<span class="infodev">I am a Full Stack Tester.</span>
-<br>
-<div class="btn">
-<a href="resume.pdf" download> <button>RESUME</button> </a>
-</div>
-</div>
-</div>
-
-<div class="about dv" id="about">
-<h1 class="head1" align="center">About</h1>
-<table cellspacing="0px" cellpadding="30px" width="100%">
-<tr>
-<td>
-<div>
-<img class="pic" src="https://cdn.vectorstock.com/i/preview-1x/93/31/cartoon-girl-writing-vector-1149331.jpg" height="260px" width="250px">
-</div>
-</td>
-<td><p>My strengths are ready to accept challenges, Eger to learn new<br>
-things, have good communication skills, hard worker<br>
-My weaknesses are until and unless I complete my work I never quite.</p></td>
-</tr>
-</table>
-</div>
-
-<div class="skill dv" id="skill">
-<h1 class="head1" align="center">Skills</h1>
-<div>
-<table border="5px" cellspacing="0px" cellpadding="30px" width="100%" >
-<tr>
-<td>LANGUAGE</td>
-<td>2</td>
-</tr>
-<tr>
-<td>TOOLS</td>
-<td>OPERATING SYSTEM</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="project dv" id="project">
-<h1 class="head1" align="center">Project</h1>
-<div>
-<div class="card-deck">
-  <div class="card">
-  <h5 class="card-title">Project 1</h5>
-    <img src="https://e7.pngegg.com/pngimages/970/490/png-clipart-resume-thumbnail.png" class="card-img-top" alt="Resume" width="50px" height="300px">
-    <div class="card-body">
-      <p class="card-text">This is the Small Project Created using HTML and CSS</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><a href=" https://tejal0504.github.io/project1/
-">Click Here</a></small>
-    </div>
-  </div>
-  <div class="card">
-  <h5 class="card-title">Project 2</h5>
-   <img src="https://images.wallpapersden.com/image/download/vintage-4k-scenic_a2luamqUmZqaraWkpJRobWllrWdma2U.jpg" alt="Image Gallery" width="400px" height="300px">
-    <div class="card-body">
-      <p class="card-text">This is Image Gallery of Nature.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><a href=" https://tejal0504.github.io/project2/">Click Here</a></small>
-    </div>
-  </div>
-  <div class="card">
-  <h5 class="card-title">Project 3</h5>
-    <img src="https://st3.depositphotos.com/4960035/17954/v/450/depositphotos_179544358-stock-illustration-black-white-music-poster-music.jpg" class="card-img-top" alt="music"width="50px" height="300px">
-    <div class="card-body">
-      <p class="card-text">This is a Music Player.</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><a href="https://tejal0504.github.io/project3/">Click Here</a></small>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-<div class="contact dv" id="contact">
-<h1 class="head1" align="center">Contact</h1>
-<div class="frm">
-<form>
-<div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="">Name </label>
-      <input type="text" class="form-control" id="text">
-    </div>
-    <div class="form-group col-md-6">
-      <label for="inputEmail4">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" id="inputCity">
-    </div>
-    <div class="form-group col-md-4">
-      <label for="inputState">State</label>
-      <select id="inputState" class="form-control">
-        <option selected>Choose...</option>
-        <option>Andhra Pradesh</option>
-<option>Arunachal Pradesh</option>
-<option>Assam</option>
-<option>Bihar</option>
-<option>Chhattisgarh</option>
-<option>Goa</option>
-<option>Gujarat</option>
-<option>Haryana</option>
-<option>Himachal Pradesh</option>
-<option>Jharkhand</option>
-<option>Karnataka</option>
-<option>Kerala</option>
-<option>Madhya Pradesh</option>
-<option>Maharashtra</option>
-<option>Manipur</option>
-<option>Meghalaya</option>
-<option>Mizoram</option>
-<option>Nagaland</option>
-<option>Odisha</option>
-<option>Punjab</option>
-<option>Rajasthan</option>
-<option>Sikkim</option>
-<option>Tamil Nadu</option>
-<option>Telangana</option>
-<option>Tripura</option>
-<option>Uttar Pradesh</option>
-<option>Uttarakhand</option>
-<option>West Bengal</option>
-      </select>
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="inputAddress">Feedback</label>
-    <br>
-    <textarea class="message-box" ></textarea>
-  </div>
- <div align="center">
-  <div class="btn">
-<button type="submit">Submit</button>
-</div>
-  </div>
-</form>
-</div>
-</div>
+    <table border="1px solid">
+        <th colspan="4"> RESUME</th>
+        <tr>
+            <td rowspan="3"><img src="https://icon2.cleanpng.com/20180319/vwq/kisspng-computer-icons-user-profile-avatar-profile-transparent-png-5ab03f3dba6729.3105587215214999657635.jpg" alt="Photo" height="210px" width="210px"></td>
+            <th>OBJECTIVE :</th>
+            <td><p> I am seeking opportunities to join a company that can help me in enhancing my skills, 
+                strengthening my knowledge and realizing my potential. As a fresher I am willing to explore a wide 
+                variety of opportunities that can help me gain perspective.</p></td>
+            </tr>
+        <tr>
+            <th>SKILLS :</th>
+            <td>
+                <ol>
+                    <li>CORE JAVA</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SELENIUM</li>
+                    <li>MANUL TESTING</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <th>HOBBIES :</th>
+            <td>
+                <ul>
+                    <li>READING NOVELS</li>
+                    <li>OUTDOOR SPORTS</li>
+                    <li>WATCHING MOVIES</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+        <td rowspan="2">
+            <ul>
+                <li><b>NAME :</b> TEJAL SANGLE</li>
+                <li><b>DOB :</b> 05/04/2001</li>
+                <li><b>E-MAIL:</b> sangle.tejal5@gmail.com</li>
+                <li><b>CONTACT:</b> 9075619433</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>ACADEMICS DETAILS :</th>
+        <td>
+            <table border="1px solid">
+                <th>SR.NO</th>
+                <th>COURSE</th>
+                <th>SCHOOL</th>
+                <th>FIELD</th>
+                <th>PERCENTAGE</th>
+                <th>YOP</th>
+                <tr>
+                    <td>1</td>
+                    <td>10<sup>th</sup></td>
+                    <td>CHAVAN SCHOOL PUNE </td>
+                    <td>-</td>
+                    <td>70 %</td>
+                    <td>2016 </td>
+                </tr>
+                <tr>
+                    <td>2 </td>
+                    <td>12<sup>th</sup></td>
+                    <td>CHAVAN HSC</td>
+                    <td>-</td>
+                    <td>52 %</td>
+                    <td>2018 </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>BSC</td>
+                    <td>SPPU </td>
+                    <td>-</td>
+                    <td>73 %</td>
+                    <td>2021 </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </table>
 </body>
 </html>
